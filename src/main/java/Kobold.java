@@ -1,5 +1,5 @@
 /**
- * The Imp class represents a specific type of monster with hit points (hp),
+ * The Kobold class represents a specific type of monster with hit points (hp),
  * experience points (xp), and items.
  * This class serves as a base class for specific types of monsters.
  *
@@ -10,13 +10,13 @@
  */
 import java.util.HashMap;
 
-public class Imp extends Monster {
-    public Imp(Integer maxHP, Integer xp, HashMap<String, Integer> items) {
+public class Kobold extends Monster {
+    public Kobold(Integer maxHP, Integer xp, HashMap<String, Integer> items) {
         super(maxHP, xp, items);
     }
 
     @Override
     public String toString() {
-        return "Imp has : " + super.toString();
+        return "Kobold has : " + super.toString();
     }
 }
