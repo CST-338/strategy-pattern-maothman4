@@ -6,7 +6,7 @@
  * @author Mohamed Othman
  * @version 1.0
  * @since 2024-07-21
- * @see <a href="https://github.com/CST-338/cst338ol-markov-maothman4">GitHub Repository</a>
+ * @see <a href="https://github.com/CST-338/strategy-pattern-maothman4">GitHub Repository</a>
  */
 import java.util.HashMap;
 import java.util.Objects;
